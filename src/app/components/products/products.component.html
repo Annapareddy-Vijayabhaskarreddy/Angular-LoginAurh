@@ -1,0 +1,23 @@
+<div class="container">
+  
+        <div class="col-md-6 offset-md-3">
+            <table class="table">
+                <thead>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let p of products">
+                        <td>{{p.name}}</td>
+                        <td>{{p.description}}</td>
+                        <td>{{p.category}}</td>
+                        <td>{{p.price}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+   
+   
+</div>
